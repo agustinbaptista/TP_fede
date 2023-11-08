@@ -1,5 +1,5 @@
 from service.telefono import Telefono
-from domain.classes import AbstractTelefonoBuilder
+from domain.telefono_abstract import AbstractTelefonoBuilder
 
 class TelefonoBuilder(AbstractTelefonoBuilder):
     _instance = None
