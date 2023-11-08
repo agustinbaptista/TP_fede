@@ -1,4 +1,4 @@
-from domain.classes import AbstractTelefono
+from domain.telefono_abstract import AbstractTelefono
 
 class Telefono(AbstractTelefono):
     def __init__(self, builder):
