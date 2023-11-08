@@ -1,4 +1,4 @@
-from domain.classes import AbstractHandler
+from domain.telefono_abstract import AbstractHandler
 
 class Handler(AbstractHandler):
     _next_handler = None
